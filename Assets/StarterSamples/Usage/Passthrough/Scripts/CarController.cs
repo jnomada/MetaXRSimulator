@@ -14,7 +14,6 @@ public class CarController : MonoBehaviour
     {
         if (!audioSource) audioSource = GetComponent<AudioSource>();
         
-        // GrabObject is the component from Meta Samples that handles the physics/trigger
         GrabObject grabScript = GetComponent<GrabObject>();
         if (grabScript != null)
         {
